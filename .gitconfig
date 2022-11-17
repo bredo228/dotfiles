@@ -1,0 +1,5 @@
+[user]
+	name = bredo
+	email = bredo@bredo.tech
+[core]
+	editor=vim
