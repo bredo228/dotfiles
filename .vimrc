@@ -9,6 +9,7 @@ set smarttab
 filetype on
 filetype indent on
 filetype plugin on
+set backspace=indent,eol,start
 
 set hlsearch
 
