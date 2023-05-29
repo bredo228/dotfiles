@@ -3,6 +3,11 @@ then
 	export PATH=$PATH:${HOME}/.local/bin
 fi
 
+if [ -f ~/.config/zsh/localconfig ]
+then
+	source ~/.config/zsh/localconfig
+fi
+
 PROMPT="b@%m:%~> "
 
 HISTFILE=~/.zsh_history
