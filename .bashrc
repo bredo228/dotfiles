@@ -11,6 +11,8 @@ if [ -d "${HOME}/.local/bin" ]; then
 	export PATH="${PATH}:${HOME}/.local/bin"
 fi
 
+export EDITOR=vim
+
 alias bssh="TERM=xterm-256color ssh"
 
 alias clsh-fp='export PS1="\w> "'
