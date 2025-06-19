@@ -12,6 +12,7 @@ if [ -d "${HOME}/.local/bin" ]; then
 fi
 
 export EDITOR=vim
+export HISTCONTROL=ignoreboth
 
 alias bssh="TERM=xterm-256color ssh"
 
