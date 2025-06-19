@@ -20,5 +20,6 @@ alias clsh-fp='export PS1="\w> "'
 alias clsh='export PS1="> "'
 
 alias oggdl='yt-dlp --embed-metadata -f bestaudio -x --audio-format vorbis'
+alias mp3dl='yt-dlp --embed-metadata -f bestaudio -x --audio-format mp3'
 
 alias update-dotfiles="curl -o ~/.bashrc https://raw.githubusercontent.com/bredo228/dotfiles/main/.bashrc && curl -o ~/.vimrc https://raw.githubusercontent.com/bredo228/dotfiles/main/.vimrc"
